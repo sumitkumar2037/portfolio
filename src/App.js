@@ -36,7 +36,7 @@ const Portfolio = () => {
 
   return (
     <div className="bg-gray-900 text-gray-300 min-h-screen">
-      {/* Navigation */}
+     
       <nav className="fixed top-0 left-0 right-0 bg-gray-900 bg-opacity-95 z-50 border-b border-gray-800">
         <div className="max-w-7xl mx-auto px-6 py-4">
           <div className="flex justify-between items-center">
@@ -59,7 +59,7 @@ const Portfolio = () => {
         </div>
       </nav>
 
-      {/* Hero Section */}
+   
       <section id="home" className="min-h-screen flex items-center justify-center relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-br from-cyan-900/20 via-gray-900 to-purple-900/20"></div>
         <div className="absolute inset-0">
@@ -85,7 +85,7 @@ const Portfolio = () => {
             <br /> Building  <span className="text-purple-400">AI-powered</span> systems  at scale
           </h1>
           <p className="text-xl text-gray-400 mb-8">
-            1 year of backend development experience, now diving deep into
+            1 year of Software Engineering experience, now diving deep into
             <br />
             <span className="text-purple-400">Machine Learning </span>,
             <span className="text-cyan-400">Deep Learning</span>,
@@ -108,7 +108,7 @@ const Portfolio = () => {
         </div>
       </section>
 
-      {/* About Section */}
+      
       <section id="about" className="py-20 px-6">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-5xl font-bold text-center mb-16">
@@ -119,7 +119,7 @@ const Portfolio = () => {
           <div className="grid md:grid-cols-2 gap-12 items-start">
             <div>
               <p className="text-gray-400 mb-6">
-                I'm a passionate engineer with <span className="text-white font-semibold">1 year of backend development experience</span>. I've built and maintained robust APIs, worked with databases, and designed scalable server-side solutions.
+                I'm a passionate engineer with <span className="text-white font-semibold">1 year of Software Engineering experience</span>. I've built and maintained robust APIs, worked with databases, and designed scalable server-side solutions.
               </p>
               <p className="text-gray-400 mb-6">
                 Currently, I'm on an exciting journey into the world of <span className="text-cyan-400">Artificial Intelligence</span>. I'm deeply immersed in learning <span className="text-purple-400">Transformers</span>, <span className="text-cyan-400">Generative AI</span>, and building intelligent applications using <span className="text-purple-400">LangChain</span>, <span className="text-cyan-400">RAG architectures</span>, and <span className="text-purple-400">AI Agents</span>.
@@ -174,7 +174,7 @@ const Portfolio = () => {
         </div>
       </section>
 
-      {/* Skills Section */}
+     
       <section id="skills" className="py-20 px-6 bg-gray-800/30">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-5xl font-bold text-center mb-16">
@@ -183,7 +183,7 @@ const Portfolio = () => {
           </h2>
 
           <div className="space-y-12">
-            {/* Backend Development */}
+            
             <div>
               <div className="flex items-center mb-6">
                 <div className="w-3 h-3 rounded-full bg-cyan-400 mr-3"></div>
@@ -198,7 +198,7 @@ const Portfolio = () => {
               </div>
             </div>
 
-            {/* AI & Machine Learning */}
+            
             <div>
               <div className="flex items-center mb-6">
                 <div className="w-3 h-3 rounded-full bg-purple-400 mr-3"></div>
@@ -213,7 +213,7 @@ const Portfolio = () => {
               </div>
             </div>
 
-            {/* Currently Learning */}
+           
             <div>
               <div className="flex items-center mb-6">
                 <div className="w-3 h-3 rounded-full bg-cyan-400 mr-3"></div>
@@ -231,7 +231,7 @@ const Portfolio = () => {
         </div>
       </section>
 
-      {/* Experience Section */}
+     
       <section id="experience" className="py-20 px-6">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-5xl font-bold text-center mb-16">
@@ -240,10 +240,10 @@ const Portfolio = () => {
           </h2>
 
           <div className="relative">
-            {/* Timeline line */}
+           
             <div className="absolute left-8 top-0 bottom-0 w-0.5 bg-gradient-to-b from-cyan-400 via-purple-400 to-cyan-400"></div>
 
-            {/* Backend Developer */}
+           
             <div className="relative mb-16">
               <div className="absolute left-6 top-0 w-5 h-5 rounded-full bg-cyan-400 border-4 border-gray-900"></div>
               <div className="ml-20 bg-gray-800 p-8 rounded-lg border border-gray-700">
@@ -263,7 +263,7 @@ const Portfolio = () => {
               </div>
             </div>
 
-            {/* AI/ML Journey */}
+           
             <div className="relative">
               <div className="absolute left-6 top-0 w-5 h-5 rounded-full bg-purple-400 border-4 border-gray-900"></div>
               <div className="ml-20 bg-gray-800 p-8 rounded-lg border border-gray-700">
@@ -287,7 +287,7 @@ const Portfolio = () => {
         </div>
       </section>
 
-      {/* Projects Section */}
+      
       <section id="projects" className="py-20 px-6 bg-gray-800/30">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-5xl font-bold text-center mb-16">
@@ -296,10 +296,10 @@ const Portfolio = () => {
           </h2>
 
           <div className="grid md:grid-cols-2 gap-8 mb-8">
-            {/* RAG Document Assistant */}
+            
             <div className="bg-gray-800 rounded-xl border border-gray-700 hover:border-cyan-500 transition-colors overflow-hidden">
 
-              {/* Thumbnail */}
+             
               <a
                 href="https://docu-chat-frontend-phi.vercel.app/"
                 target="_blank"
@@ -313,7 +313,7 @@ const Portfolio = () => {
                 />
               </a>
 
-              {/* Content */}
+             
               <div className="p-8">
                 <h3 className="text-2xl font-bold text-white mb-3 hover:text-cyan-400 hover:underline underline-offset-4 transition">
                   <a
@@ -330,7 +330,7 @@ const Portfolio = () => {
                   Upload PDFs and ask questions in natural language.
                 </p>
 
-                {/* Tech stack */}
+               
                 <div className="flex flex-wrap gap-2 mb-6">
                   <span className="px-3 py-1 bg-gray-900 rounded text-sm text-gray-300">LangChain</span>
                   <span className="px-3 py-1 bg-gray-900 rounded text-sm text-gray-300">RAG</span>
@@ -338,10 +338,10 @@ const Portfolio = () => {
                   <span className="px-3 py-1 bg-gray-900 rounded text-sm text-gray-300">OpenAI</span>
                 </div>
 
-                {/* Actions */}
+               
                 <div className="flex space-x-4">
                   <a
-                    href="https://github.com/your-repo"
+                    href="https://github.com/sumitkumar2037/DocuChat_backend"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center space-x-2 px-4 py-2 bg-gray-900 rounded hover:bg-gray-700 transition-colors"
@@ -428,7 +428,7 @@ const Portfolio = () => {
         </div>
       </section>
 
-      {/* Contact Section */}
+      
       <section id="contact" className="py-20 px-6">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-5xl font-bold text-center mb-16">
@@ -522,7 +522,7 @@ const Portfolio = () => {
         </div>
       </section>
 
-      {/* Footer */}
+    
       <footer className="py-8 px-6 border-t border-gray-800">
         <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center">
           <div className="text-gray-400 mb-4 md:mb-0">
