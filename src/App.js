@@ -92,13 +92,13 @@ const Portfolio = () => {
             <span className="text-purple-400">Transformers</span>, <span className="text-cyan-400">LangChain</span>, <span className="text-purple-400">RAG</span> & <span className="text-cyan-400">AI Agents</span>
           </p>
           <div className="flex justify-center space-x-6">
-            <a href="https://github.com/sumitkumar2037" className="w-12 h-12 rounded-full bg-gray-800 flex items-center justify-center hover:bg-gray-700 transition-colors">
+            <a aria-label="Visit github" href="https://github.com/sumitkumar2037" className="w-12 h-12 rounded-full bg-gray-800 flex items-center justify-center hover:bg-gray-700 transition-colors">
               <Github size={20} />
             </a>
-            <a href="https://www.linkedin.com/in/sumit-kumar-627690221/" className="w-12 h-12 rounded-full bg-gray-800 flex items-center justify-center hover:bg-gray-700 transition-colors">
+            <a aria-label="Visit linkedin" href="https://www.linkedin.com/in/sumit-kumar-627690221/" className="w-12 h-12 rounded-full bg-gray-800 flex items-center justify-center hover:bg-gray-700 transition-colors">
               <Linkedin size={20} />
             </a>
-            <a href="mailto:sumitshaw2037@gmail.com" className="w-12 h-12 rounded-full bg-gray-800 flex items-center justify-center hover:bg-gray-700 transition-colors">
+            <a aria-label="Visit mail" href="mailto:sumitshaw2037@gmail.com" className="w-12 h-12 rounded-full bg-gray-800 flex items-center justify-center hover:bg-gray-700 transition-colors">
               <Mail size={20} />
             </a>
           </div>
@@ -301,6 +301,7 @@ const Portfolio = () => {
 
              
               <a
+                aria-label="Visit project"
                 href="https://docu-chat-frontend-phi.vercel.app/"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -317,6 +318,7 @@ const Portfolio = () => {
               <div className="p-8">
                 <h3 className="text-2xl font-bold text-white mb-3 hover:text-cyan-400 hover:underline underline-offset-4 transition">
                   <a
+                    aria-label="Visit project"
                     href="https://docu-chat-frontend-phi.vercel.app/"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -341,6 +343,7 @@ const Portfolio = () => {
                
                 <div className="flex space-x-4">
                   <a
+                    aria-label="Visit project"
                     href="https://github.com/sumitkumar2037/DocuChat_backend"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -351,6 +354,7 @@ const Portfolio = () => {
                   </a>
 
                   <a
+                    aria-label="Visit project"
                     href="https://docu-chat-frontend-phi.vercel.app/"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -450,7 +454,7 @@ const Portfolio = () => {
                   </div>
                   <div>
                     <div className="text-gray-400 text-sm">Email</div>
-                    <div className="text-white"><a href='mailto:sumitshaw2037@gmail.com'>sumitshaw2037@gmail.com</a></div>
+                    <div className="text-white"><a aria-label="Visit mail" href='mailto:sumitshaw2037@gmail.com'>sumitshaw2037@gmail.com</a></div>
                   </div>
                 </div>
 
@@ -460,7 +464,7 @@ const Portfolio = () => {
                   </div>
                   <div>
                     <div className="text-gray-400 text-sm">GitHub</div>
-                    <div className="text-white"><a href='https://github.com/sumitkumar2037'>sumitkumar2037</a></div>
+                    <div className="text-white"><a aria-label="Visit github" href='https://github.com/sumitkumar2037'>sumitkumar2037</a></div>
                   </div>
                 </div>
 
@@ -469,9 +473,9 @@ const Portfolio = () => {
                     <Linkedin className="text-purple-400" size={20} />
                   </div>
                   <div>
-                    <a href='https://www.linkedin.com/in/sumit-kumar-627690221/'></a>
+                  
                     <div className="text-gray-400 text-sm">LinkedIn</div>
-                    <div className="text-white"><a href='https://www.linkedin.com/in/sumit-kumar-627690221/'>Sumit kumar</a></div>
+                    <div className="text-white"><a aria-label="Visit linkedin" href='https://www.linkedin.com/in/sumit-kumar-627690221/'>Sumit kumar</a></div>
                   </div>
                 </div>
               </div>
