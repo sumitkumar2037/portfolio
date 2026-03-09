@@ -6,7 +6,7 @@ const Portfolio = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      const sections = ['home', 'about', 'skills', 'experience', 'projects', 'contact'];
+      const sections = ['home', 'about', 'skills', 'experience', 'projects', 'certification', 'contact'];
       const scrollPosition = window.scrollY + 100;
 
       for (const section of sections) {
@@ -44,7 +44,7 @@ const Portfolio = () => {
               <span className="text-white">&lt;</span>Dev<span className="text-white">/&gt;</span>
             </div>
             <div className="flex space-x-8">
-              {['About', 'Skills', 'Experience', 'Projects', 'Contact'].map((item) => (
+              {['About', 'Skills', 'Experience', 'Projects', 'Certification', 'Contact'].map((item) => (
                 <button
                   key={item}
                   onClick={() => scrollToSection(item.toLowerCase())}
@@ -428,6 +428,117 @@ const Portfolio = () => {
 
           <div className="text-center mt-12">
             <p className="text-gray-400 italic">More projects coming soon as I continue my AI journey...</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="certification" className="py-20 px-6">
+        <div className="max-w-6xl mx-auto">
+          <h2 className="text-5xl font-bold text-center mb-16">
+            <span className="text-cyan-400">Featured</span> Certification
+            <div className="h-1 w-24 bg-cyan-400 mx-auto mt-4"></div>
+          </h2>
+
+          <div className="grid md:grid-cols-2 gap-8">
+            <div className="bg-gray-800 rounded-xl border border-gray-700 hover:border-cyan-500 transition-colors overflow-hidden">
+              <a
+                aria-label="View LangChain certification"
+                href="https://drive.google.com/file/d/1Yb_1U1wX6KlksioQ6png0WHpm1Y7HBTa/view?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block"
+              >
+                <img
+                  src="langchain-cert.png"
+                  alt="LangChain certification preview"
+                  className="w-full h-72 md:h-80 object-contain bg-white p-2 transition-transform duration-300"
+                />
+              </a>
+
+              <div className="p-8">
+                <h4 className="text-2xl font-bold text-white mb-3 hover:text-cyan-400 hover:underline underline-offset-4 transition">
+                  <a
+                    aria-label="View LangChain certification"
+                    href="https://drive.google.com/file/d/1Yb_1U1wX6KlksioQ6png0WHpm1Y7HBTa/view?usp=sharing"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    LangChain Certification
+                  </a>
+                </h4>
+                <p className="text-gray-400 mb-6">
+                  Certification covering LangChain fundamentals, chaining, retrieval workflows,
+                  and practical LLM application patterns.
+                </p>
+
+                <div className="flex flex-wrap gap-2 mb-6">
+                  <span className="px-3 py-1 bg-gray-900 rounded text-sm text-gray-300">LangChain</span>
+                  <span className="px-3 py-1 bg-gray-900 rounded text-sm text-gray-300">RAG</span>
+                  <span className="px-3 py-1 bg-gray-900 rounded text-sm text-gray-300">LLMs</span>
+                </div>
+
+                <a
+                  aria-label="View LangChain certification"
+                  href="https://drive.google.com/file/d/1Yb_1U1wX6KlksioQ6png0WHpm1Y7HBTa/view?usp=sharing"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center space-x-2 px-4 py-2 bg-gray-900 rounded hover:bg-gray-700 transition-colors"
+                >
+                  <ExternalLink size={18} />
+                  <span>View Certification</span>
+                </a>
+              </div>
+            </div>
+
+            <div className="bg-gray-800 rounded-xl border border-gray-700 hover:border-cyan-500 transition-colors overflow-hidden">
+              <a
+                aria-label="View MCP certification"
+                href="https://drive.google.com/file/d/1wCChrcjHRB8JDClUW3pa1spu1QwPrO__/view?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block"
+              >
+                <img
+                  src="mcp-cert.png"
+                  alt="MCP certification preview"
+                  className="w-full h-72 md:h-80 object-contain bg-white p-2 transition-transform duration-300"
+                />
+              </a>
+
+              <div className="p-8">
+                <h4 className="text-2xl font-bold text-white mb-3 hover:text-cyan-400 hover:underline underline-offset-4 transition">
+                  <a
+                    aria-label="View MCP certification"
+                    href="https://drive.google.com/file/d/1wCChrcjHRB8JDClUW3pa1spu1QwPrO__/view?usp=sharing"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    MCP Certification
+                  </a>
+                </h4>
+                <p className="text-gray-400 mb-6">
+                  Certification focused on Model Context Protocol concepts and practical usage
+                  for AI integrations and tool communication.
+                </p>
+
+                <div className="flex flex-wrap gap-2 mb-6">
+                  <span className="px-3 py-1 bg-gray-900 rounded text-sm text-gray-300">MCP</span>
+                  <span className="px-3 py-1 bg-gray-900 rounded text-sm text-gray-300">AI Integrations</span>
+                  <span className="px-3 py-1 bg-gray-900 rounded text-sm text-gray-300">Protocols</span>
+                </div>
+
+                <a
+                  aria-label="View MCP certification"
+                  href="https://drive.google.com/file/d/1wCChrcjHRB8JDClUW3pa1spu1QwPrO__/view?usp=sharing"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center space-x-2 px-4 py-2 bg-gray-900 rounded hover:bg-gray-700 transition-colors"
+                >
+                  <ExternalLink size={18} />
+                  <span>View Certification</span>
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </section>
