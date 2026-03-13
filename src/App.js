@@ -33,6 +33,7 @@ const Portfolio = () => {
       element.scrollIntoView({ behavior: 'smooth' });
     }
   };
+  const agentsCertificateLink = 'https://cas-bridge.xethub.hf.co/xet-bridge-us/67a47037749ea2c4b9fafd4b/aae0bf20a3d5f6e19301c16d4efa04640804041fbf704b61a30d344da986effa?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=cas%2F20260313%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260313T090707Z&X-Amz-Expires=3600&X-Amz-Signature=a41285ad12c7affec9a5d913968b57b0036efc964a04c16aa30238d5a8487f26&X-Amz-SignedHeaders=host&X-Xet-Cas-Uid=694d8af9f71c3b988f40e2c3&response-content-disposition=inline%3B+filename*%3DUTF-8%27%272026-03-13.png%3B+filename%3D%222026-03-13.png%22%3B&response-content-type=image%2Fpng&x-amz-checksum-mode=ENABLED&x-id=GetObject&Expires=1773396427&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc3MzM5NjQyN319LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2FzLWJyaWRnZS54ZXRodWIuaGYuY28veGV0LWJyaWRnZS11cy82N2E0NzAzNzc0OWVhMmM0YjlmYWZkNGIvYWFlMGJmMjBhM2Q1ZjZlMTkzMDFjMTZkNGVmYTA0NjQwODA0MDQxZmJmNzA0YjYxYTMwZDM0NGRhOTg2ZWZmYSoifV19&Signature=ezCX98BAdGxMhAM7OjEwnRWWRd4e4cIC77ARACDYfRqwAWNDH5vv6XlelEzwj28BZAcQyFtsrC7KgZBPV5p5-snBHfq8l-NuVvmAZgxW6YJa3KxfZq3rOsdlVk6cuHFEoU8rmGknVSrfabY6ywcRXsj2cSZrYGE6ghDpOKzaHbFnKcnvP7sK3J9ODcWvzFeRXCzIQS6xQH%7EUKU3TrK-4-H1srhD-M1ik1qML5dMExB6Nn8qBZdB9ivwE4EJxKreMEICxt1T4jtkP6BaLES-2K4pqM6woOqcTeSWCCUWsopzOC6V9XdNGuUvvjO2W6BZbUdRBc%7Eaut2AUeozSZmvDzQ__&Key-Pair-Id=K2L8F4GPSG1IFC';
 
   return (
     <div className="bg-gray-900 text-gray-300 min-h-screen">
@@ -251,7 +252,7 @@ const Portfolio = () => {
                   <svg className="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
                   </svg>
-                  2024 - 2025
+                  July 2024 - July 2025
                 </div>
                 <h3 className="text-2xl font-bold text-white mb-2">Software Engineer</h3>
                 <p className="text-cyan-400 mb-4">Techlene Software Solution Pvt ltd</p>
@@ -263,7 +264,26 @@ const Portfolio = () => {
               </div>
             </div>
 
-           
+            <div className="relative mb-16">
+              <div className="absolute left-6 top-0 w-5 h-5 rounded-full bg-purple-400 border-4 border-gray-900"></div>
+              <div className="ml-20 bg-gray-800 p-8 rounded-lg border border-gray-700">
+                <div className="flex items-center text-gray-400 mb-2">
+                  <svg className="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                  </svg>
+                  Oct 2025 - Feb 2026
+                </div>
+                <h3 className="text-2xl font-bold text-white mb-2">Intern</h3>
+                <p className="text-purple-400 mb-4">Parcharverse Media</p>
+                <ul className="space-y-2 text-gray-400">
+                  <li>• Lead generation automation.</li>
+                  <li>• Implemented AI-powered chatbot to provide instant customer support and engagement 24/7.</li>
+                  <li>• Retail voice AI calling to automate outbound follow-ups, reminders, and customer engagement.</li>
+                  <li>• Custom workflow integration to connect tools and automate repetitive tasks end-to-end.</li>
+                </ul>
+              </div>
+            </div>
+
             <div className="relative">
               <div className="absolute left-6 top-0 w-5 h-5 rounded-full bg-purple-400 border-4 border-gray-900"></div>
               <div className="ml-20 bg-gray-800 p-8 rounded-lg border border-gray-700">
@@ -439,7 +459,7 @@ const Portfolio = () => {
             <div className="h-1 w-24 bg-cyan-400 mx-auto mt-4"></div>
           </h2>
 
-          <div className="grid md:grid-cols-2 gap-8">
+          <div className="grid md:grid-cols-3 gap-8">
             <div className="bg-gray-800 rounded-xl border border-gray-700 hover:border-cyan-500 transition-colors overflow-hidden">
               <a
                 aria-label="View LangChain certification"
@@ -530,6 +550,56 @@ const Portfolio = () => {
                 <a
                   aria-label="View MCP certification"
                   href="https://drive.google.com/file/d/1wCChrcjHRB8JDClUW3pa1spu1QwPrO__/view?usp=sharing"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center space-x-2 px-4 py-2 bg-gray-900 rounded hover:bg-gray-700 transition-colors"
+                >
+                  <ExternalLink size={18} />
+                  <span>View Certification</span>
+                </a>
+              </div>
+            </div>
+
+            <div className="bg-gray-800 rounded-xl border border-gray-700 hover:border-cyan-500 transition-colors overflow-hidden">
+              <a
+                aria-label="View Fundamentals of Agents certification"
+                href={agentsCertificateLink}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block"
+              >
+                <img
+                  src="agents-cert.png"
+                  alt="Fundamentals of Agents certification preview"
+                  className="w-full h-72 md:h-80 object-contain bg-white p-2 transition-transform duration-300"
+                />
+              </a>
+
+              <div className="p-8">
+                <h4 className="text-2xl font-bold text-white mb-3 hover:text-cyan-400 hover:underline underline-offset-4 transition">
+                  <a
+                    aria-label="View Fundamentals of Agents certification"
+                    href={agentsCertificateLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Fundamentals of Agents
+                  </a>
+                </h4>
+                <p className="text-gray-400 mb-6">
+                  Certificate of Achievement for completing Unit 1: Foundations of Agents
+                  in the Hugging Face Agents Course.
+                </p>
+
+                <div className="flex flex-wrap gap-2 mb-6">
+                  <span className="px-3 py-1 bg-gray-900 rounded text-sm text-gray-300">Agents</span>
+                  <span className="px-3 py-1 bg-gray-900 rounded text-sm text-gray-300">Hugging Face</span>
+                  <span className="px-3 py-1 bg-gray-900 rounded text-sm text-gray-300">AI</span>
+                </div>
+
+                <a
+                  aria-label="View Fundamentals of Agents certification"
+                  href={agentsCertificateLink}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center space-x-2 px-4 py-2 bg-gray-900 rounded hover:bg-gray-700 transition-colors"
